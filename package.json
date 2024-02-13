@@ -9,8 +9,8 @@
     "clean": "rimraf docs .parcel-cache",
     "generateSW": "workbox generateSW",
     "start": "parcel",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build:parcel": "parcel build --dist-dir=build --public-url=./",
     "build": "npm-run-all clean build:parcel",
     "postbuild": "npm run generateSW"
