@@ -1,5 +1,5 @@
 {
-  "homepage": "https://pinnaclessc.github.io/barcode-scanner",
+  "homepage": "https://thakurjk.github.io/new-barcode-scanner",
   "name": "barcode-scanner",
   "version": "1.0.0",
   "description": "A Progressive Web Application (PWA) that scans barcodes of various formats, using the Barcode Detection API.",
@@ -11,7 +11,7 @@
     "start": "parcel",
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
-    "build:parcel": "parcel build --dist-dir=docs --public-url=./",
+    "build:parcel": "parcel build --dist-dir=build --public-url=./",
     "build": "npm-run-all clean build:parcel",
     "postbuild": "npm run generateSW"
   },
